@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OE</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="icon" type="image/jpg" href="olc1.png">
+</head>
+<body>
+    <div class="container">
+        <form method="POST" action="connect.php">
+            <h1><i><u>Registration</i></u></h1><br>
+            <p style="text-align: center;"><img src="images/OE.png" alt="OE"></p>
+            <div class="form-group">
+                
+                <input type="text" placeholder="Create User ID" class="form-control" required>
+
+            </div>
+            <div class="form-group">
+                
+                <input type="text" placeholder="First Name" class="form-control" required>
+
+            </div>
+            <div class="form-group">
+            
+                <input type="text" placeholder="Last Name" class="form-control" required>
+
+            </div>
+            
+            <div class="form-group">
+                
+                <input type="text" placeholder="Email address" class="form-control" required>
+
+            </div>
+           
+            <div class="form-group">
+                
+                    <input type="date" placeholder="Date of birth" class="form-control" required>
+    
+                </div>
+                <div class="form-group">
+                
+
+                    <select name="type" id="type" class="form-control">
+                      <option value="volvo">Select user type</option>
+                      <option value="saab">Teacher</option>
+                      <option value="mercedes">Student</option>
+                      
+                    </select>
+    
+                   </div>
+               <div class="form-group">
+                   
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male" class="form-control">Male</label>
+                <input type="radio" id="female" name="gender" value="Female" required>
+                <label for="female" class="form-control">Female</label>
+                <input type="radio" id="others" name="gender"  value="Others" required>
+                <label for="others" class="form-control">Others</label><br>
+
+               </div>
+               
+               <div class="form-group">
+               
+                <input type="password" placeholder="New Password" class="form-control" minlength="8" required>
+
+            </div>
+            <div class="form-group">
+               
+                <input type="password" placeholder="Confirm Password" class="form-control" minlength="8" required>
+
+            </div>
+           
+            
+            <input type="submit" class="btn" value="Sign Up"><br><br>
+           
+        </form>
+    </div>
+</body>
+</html>
